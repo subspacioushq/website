@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Subspace: Enterprise AI agents, secured from the ground up</title>
+    <meta name="description" content="Subspace gives enterprises a managed platform to run AI agents in secure VM environments with compliance built in.">
+    <meta property="og:title" content="Subspace: Enterprise AI agents, secured from the ground up">
+    <meta property="og:description" content="Subspace gives enterprises a managed platform to run AI agents in secure VM environments with compliance built in.">
+    <meta property="og:image" content="https://subspacious.com/img/logomark.png">
+    <meta property="og:url" content="https://subspacious.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Subspace: Enterprise AI agents, secured from the ground up">
+    <meta name="twitter:description" content="Subspace gives enterprises a managed platform to run AI agents in secure VM environments with compliance built in.">
+    <meta name="twitter:image" content="https://subspacious.com/img/logomark.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'SF Mono', 'Menlo', 'monospace'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2 font-mono font-bold text-lg tracking-tight">
+                <img src="img/logomark.svg" alt="Subspace" class="w-7 h-7">
+                Subspace
+            </a>
+            <a href="https://forms.gle/LARzr4tsXWd2ZD2r6" target="_blank" rel="noopener noreferrer" class="bg-slate-900 text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-slate-800 transition-colors">
+                Get Early Access
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="max-w-5xl mx-auto px-6 pt-24 pb-20">
+        <div class="max-w-3xl">
+            <h1 class="text-4xl sm:text-5xl font-bold tracking-tight leading-tight max-w-xl sm:max-w-2xl">
+                Enterprise AI agents, secured from the ground up
+            </h1>
+            <p class="mt-6 text-lg text-slate-500 leading-relaxed max-w-2xl">
+                Subspace gives enterprises a managed platform to run AI agents in secure VM environments with compliance built in.
+            </p>
+            <div class="mt-10">
+                <a href="https://forms.gle/LARzr4tsXWd2ZD2r6" target="_blank" rel="noopener noreferrer" class="inline-block bg-slate-900 text-white font-medium px-7 py-3.5 rounded-lg hover:bg-slate-800 transition-colors text-base">
+                    Get Early Access
+                </a>
+                <p class="mt-3 text-sm text-slate-400">
+                    We're looking for design partners to build this right. No cost to participate.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="bg-slate-50 border-y border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-20">
+            <h2 class="text-3xl font-bold tracking-tight">Agents are outgrowing the laptop</h2>
+            <p class="mt-4 text-lg text-slate-500 max-w-2xl">
+                AI agents are moving from SaaS products onto employee machines. The current setup wasn't designed for this.
+            </p>
+
+            <div class="mt-12 grid md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl border border-slate-200 p-8">
+                    <h3 class="text-lg font-semibold mb-6">Agents don't belong on laptops</h3>
+                    <ul class="space-y-4">
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">They stop when you close the lid.</span>
+                            Close your laptop, lose your work.
+                        </li>
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">They max out fast.</span>
+                            Your machine runs out of memory, disk, and CPU before you can meaningfully parallelize.
+                        </li>
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">You can't manage them from anywhere.</span>
+                            No way to fire up agents on the go, check progress from your phone, or hand off tasks between devices.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl border border-slate-200 p-8">
+                    <h3 class="text-lg font-semibold mb-6">Existing tools weren't built for this</h3>
+                    <ul class="space-y-4">
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">No audit trail for agent sessions.</span>
+                            Agents inherit every credential on the machine (Salesforce, production databases, Google Drive) with no log of what they accessed.
+                        </li>
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">MDM scans take longer than agents live.</span>
+                            An agent that runs for 20 minutes finishes before the security scan even starts.
+                        </li>
+                        <li class="text-slate-600 leading-relaxed">
+                            <span class="font-medium text-slate-900">Per-machine pricing breaks at scale.</span>
+                            Endpoint protection charges per device. 100 employees spinning up 1,000 agent VMs turns a $50K security contract into $500K.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Compute and security, built together</h2>
+        <p class="mt-4 text-lg text-slate-500 max-w-2xl">
+            By owning the infrastructure agents run on, we enforce permissions, network isolation, and software policy, all the way down to the hypervisor.
+        </p>
+
+        <div class="mt-12 grid md:grid-cols-2 gap-10">
+            <!-- Pillar 1 -->
+            <div>
+                <h3 class="text-lg font-semibold">Full VM environments, not containers</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Pre-configured Windows, Mac, or Linux environments with the apps your team actually uses. Excel, Salesforce, Slack, QuickBooks: installed, authenticated, and secured before the agent starts.
+                </p>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div>
+                <h3 class="text-lg font-semibold">Credentials that expire when the agent does</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Agents live for 20 minutes, not 2 years. Every session gets temporary, scoped credentials. Read-only Salesforce access, specific Drive folders, limited GitHub repos. Permissions are fine-grained, automatically revoked, and fully logged.
+                </p>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div>
+                <h3 class="text-lg font-semibold">Every agent session produces a complete record</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Like build logs in CI/CD, every agent session generates a full audit trail of what was accessed, what changed, and what was created. Behavioral anomaly detection at the hypervisor level catches agents that deviate from expected patterns before they cause damage. It's built into the infrastructure. No SDK to install, no code to instrument.
+                </p>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div>
+                <h3 class="text-lg font-semibold">There is no makefile for a product manager</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Engineers have Docker, Homebrew, and CI/CD. Finance has... clicking through Microsoft installers. We provide the package manager non-engineering teams never had. Finance needs Excel + QuickBooks + bank access? One config panel. Security reviews it. Done.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="bg-slate-50 border-y border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-20">
+            <h2 class="text-3xl font-bold tracking-tight">How it works</h2>
+
+            <div class="mt-12 grid md:grid-cols-3 gap-10">
+                <div>
+                    <div class="text-sm font-mono font-medium text-slate-400 mb-3">01</div>
+                    <h3 class="text-lg font-semibold">Configure</h3>
+                    <p class="mt-3 text-slate-600 leading-relaxed">
+                        Pick the OS, the apps, and the permissions. One config panel, five minutes. Security reviews and approves.
+                    </p>
+                </div>
+                <div>
+                    <div class="text-sm font-mono font-medium text-slate-400 mb-3">02</div>
+                    <h3 class="text-lg font-semibold">Launch</h3>
+                    <p class="mt-3 text-slate-600 leading-relaxed">
+                        Spin up secure cloud environments on demand. Pre-configured VMs with encryption, network controls, and audit logging. Agents get exactly the access they need, nothing more.
+                    </p>
+                </div>
+                <div>
+                    <div class="text-sm font-mono font-medium text-slate-400 mb-3">03</div>
+                    <h3 class="text-lg font-semibold">Monitor</h3>
+                    <p class="mt-3 text-slate-600 leading-relaxed">
+                        Watch agents work in real time. See the remote desktop, review activity logs, get alerts on behavioral anomalies, and track compliance status and costs per team.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Whom -->
+    <section class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Built for the people who make the call</h2>
+
+        <div class="mt-12 grid md:grid-cols-3 gap-10">
+            <div>
+                <p class="text-sm font-medium text-slate-400 uppercase tracking-wide mb-2">For the CISO</p>
+                <h3 class="text-lg font-semibold">Say yes to AI</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Complete audit trails and real-time logging for every agent session. Automatic compliance enforcement for HIPAA, SOC 2, and GDPR. Fine-grained access controls that match the scope and lifetime of each agent.
+                </p>
+            </div>
+            <div>
+                <p class="text-sm font-medium text-slate-400 uppercase tracking-wide mb-2">For the CTO</p>
+                <h3 class="text-lg font-semibold">Give every team what engineering already has</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Standardized, reproducible environments that scale beyond any single laptop. Run 100 agents in parallel. Extend AI capabilities from engineering to finance, product, sales, and ops.
+                </p>
+            </div>
+            <div>
+                <p class="text-sm font-medium text-slate-400 uppercase tracking-wide mb-2">For the CFO</p>
+                <h3 class="text-lg font-semibold">Pricing that tracks what you actually use</h3>
+                <p class="mt-3 text-slate-600 leading-relaxed">
+                    Pay per agent compute hour, not per machine. Clear cost visibility per team and department, with built-in budget controls.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders -->
+    <section class="bg-slate-50 border-y border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-20">
+            <h2 class="text-3xl font-bold tracking-tight">Built by people who've done this before</h2>
+            <div class="mt-12 grid md:grid-cols-2 gap-10">
+                <!-- Founder 1 -->
+                <div class="flex gap-5">
+                    <img src="img/chub.jpg" alt="chub" class="w-16 h-16 rounded-full object-cover flex-shrink-0">
+                    <div>
+                        <h3 class="font-semibold">chub</h3>
+                        <p class="text-sm text-slate-400 mt-0.5">Co-founder</p>
+                        <p class="mt-2 text-slate-600 text-sm leading-relaxed">
+                            4x founding engineer turned VP of Engineering. Scaled infrastructure, security, and product teams at hypergrowth companies. Built hardened systems for regulated workloads.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Founder 2 -->
+                <div class="flex gap-5">
+                    <img src="img/jay.jpg" alt="Jay" class="w-16 h-16 rounded-full object-cover flex-shrink-0">
+                    <div>
+                        <h3 class="font-semibold">Jay</h3>
+                        <p class="text-sm text-slate-400 mt-0.5">Co-founder</p>
+                        <p class="mt-2 text-slate-600 text-sm leading-relaxed">
+                            Founding engineer at Alchemy. Built the core API infrastructure and secured smart contract accounts holding 9-figure assets. Previously at Facebook.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold tracking-tight">Frequently asked questions</h2>
+
+        <div class="mt-12 max-w-3xl divide-y divide-slate-200">
+            <details class="group py-6" open>
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <h3 class="font-semibold text-base">What operating systems and apps are supported?</h3>
+                    <svg class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    Windows, Mac, and Linux. We support the apps your team already uses: Office, Salesforce, Slack, QuickBooks, Google Workspace, GitHub, and more. If your team needs it, we can configure it.
+                </p>
+            </details>
+
+            <details class="group py-6">
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <h3 class="font-semibold text-base">Does this replace our existing MDM or security tools?</h3>
+                    <svg class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    No. MDM tools like Kandji and Intune are built for employee machines. We handle agent environments, which are ephemeral and need a different approach. We integrate with your existing security stack, not replace it.
+                </p>
+            </details>
+
+            <details class="group py-6">
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <h3 class="font-semibold text-base">How is this priced?</h3>
+                    <svg class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    Per agent compute hour, not per seat. Your costs scale with actual usage, not with the number of VMs you might need at peak.
+                </p>
+            </details>
+
+            <details class="group py-6">
+                <summary class="flex items-center justify-between cursor-pointer list-none">
+                    <h3 class="font-semibold text-base">How do we get started?</h3>
+                    <svg class="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </summary>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    Email us at <a href="mailto:founders@subspacious.com" class="text-slate-900 underline underline-offset-2">founders@subspacious.com</a>. We'll schedule a call to understand your setup and see if there's a fit for the design partner program.
+                </p>
+            </details>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-6 py-20">
+            <h2 class="text-3xl font-bold tracking-tight">We're looking for design partners</h2>
+            <p class="mt-4 text-lg text-slate-400 max-w-2xl">
+                We're looking for companies where AI agent adoption is outpacing security. If that sounds familiar, we'd like to build this with you.
+            </p>
+
+            <ul class="mt-8 space-y-3 text-slate-300">
+                <li class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    Early access at no cost
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    Direct input into what we build
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    Priority onboarding at launch
+                </li>
+            </ul>
+
+            <div class="mt-10">
+                <a href="https://forms.gle/LARzr4tsXWd2ZD2r6" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-slate-900 font-medium px-7 py-3.5 rounded-lg hover:bg-slate-100 transition-colors text-base">
+                    Get Early Access
+                </a>
+                <p class="mt-3 text-sm text-slate-500">
+                    Or email us directly: <a href="mailto:founders@subspacious.com" class="text-slate-400 underline underline-offset-2 hover:text-slate-300">founders@subspacious.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100">
+        <div class="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
+            <p class="flex items-center gap-2 font-mono text-sm text-slate-400">
+                <img src="img/logomark.svg" alt="Subspace" class="w-5 h-5">
+                Subspacious 2026
+            </p>
+            <a href="mailto:founders@subspacious.com" class="text-sm text-slate-400 hover:text-slate-600 transition-colors">founders@subspacious.com</a>
+        </div>
+    </footer>
+
+</body>
+</html>

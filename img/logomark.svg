@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowD" cx="50%" cy="46%" r="42%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Radial glow (no background rect, fully transparent canvas) -->
+  <rect width="512" height="512" rx="80" fill="url(#glowD)"/>
+
+  <!-- Row 0 -->
+  <rect x="72"  y="72"  width="106" height="106" rx="22" fill="rgba(34,211,238,0.30)" stroke="rgba(34,211,238,0.55)" stroke-width="2"/>
+  <rect x="203" y="72"  width="106" height="106" rx="22" fill="rgba(34,211,238,0.50)" stroke="rgba(34,211,238,0.75)" stroke-width="2"/>
+  <rect x="334" y="72"  width="106" height="106" rx="22" fill="rgba(34,211,238,0.95)" stroke="#22d3ee"               stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <rect x="72"  y="203" width="106" height="106" rx="22" fill="rgba(34,211,238,0.18)" stroke="rgba(34,211,238,0.40)" stroke-width="2"/>
+  <rect x="203" y="203" width="106" height="106" rx="22" fill="rgba(34,211,238,0.60)" stroke="rgba(34,211,238,0.80)" stroke-width="2"/>
+  <rect x="334" y="203" width="106" height="106" rx="22" fill="rgba(34,211,238,0.78)" stroke="rgba(34,211,238,0.92)" stroke-width="2"/>
+
+  <!-- Row 2 -->
+  <rect x="72"  y="334" width="106" height="106" rx="22" fill="rgba(34,211,238,0.10)" stroke="rgba(34,211,238,0.28)" stroke-width="2"/>
+  <rect x="203" y="334" width="106" height="106" rx="22" fill="rgba(34,211,238,0.28)" stroke="rgba(34,211,238,0.50)" stroke-width="2"/>
+  <rect x="334" y="334" width="106" height="106" rx="22" fill="rgba(34,211,238,0.45)" stroke="rgba(34,211,238,0.65)" stroke-width="2"/>
+</svg>
